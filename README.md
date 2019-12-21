@@ -1,10 +1,10 @@
 Fedora_31_lxqt with installed dwm (suckless.org) + removed sddm (login/display manager)
 
 configuration files:
-.bash_profile from /home/<user>/
-.xinitrc  from /home/<user>/
-compton.conf from /home/<user>/.config/
-config.h from /home/<user>/.dwm/
+.bash_profile from ~
+.xinitrc  from ~
+compton.conf from ~/.config/
+config.h from ~/.dwm/
 
 
 1).bash_profile -> log in without sddm (DM) using tty1 will start 'startx' process  
